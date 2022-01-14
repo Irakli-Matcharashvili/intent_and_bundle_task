@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_p_0.5">0.5dp</dimen>
+    <dimen name="dimen_p_1">1dp</dimen>
+    <dimen name="dimen_p_2">2dp</dimen>
+    <dimen name="dimen_p_3">3dp</dimen>
+    <dimen name="dimen_p_4">4dp</dimen>
+    <dimen name="dimen_p_5">5dp</dimen>
+    <dimen name="dimen_p_20">20dp</dimen>
+    <dimen name="dimen_p_21">21dp</dimen>
+    <dimen name="dimen_p_22">22dp</dimen>
+    <dimen name="dimen_p_23">23dp</dimen>
+    <dimen name="dimen_p_24">24</dimen>
+    <dimen name="dimen_p_25">25dp</dimen>
+    <dimen name="dimen_p_30">30dp</dimen>
+    <dimen name="dimen_p_80">80dp</dimen>
+    <dimen name="dimen_p_210">210dp</dimen>
+    <dimen name="dimen_p_220">220dp</dimen>
+
+    <dimen name="dimen_sp_20">20sp</dimen>
+</resources>
