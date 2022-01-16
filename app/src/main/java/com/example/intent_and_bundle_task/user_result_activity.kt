@@ -17,12 +17,11 @@ class user_result_activity : AppCompatActivity() {
         lastNameTextView = findViewById(R.id.lastNameTextView)
         userAgeTextView = findViewById(R.id.userAgeTextView)
         userJobTextView = findViewById(R.id.userJobTextView)
-
-
-        nameTextView.text = intent.getStringExtra("name")
-        lastNameTextView.text = intent.getStringExtra("last name")
-        userAgeTextView.text = intent.getStringExtra("age")
-        userJobTextView.text = intent.getStringExtra("job")
+        val person: Person = intent.extras?.get("Key") as Person
+        nameTextView.text = person.name
+        lastNameTextView.text = person.lastName
+        userAgeTextView.text = person.age
+        userJobTextView.text = person.job
 
     }
 }

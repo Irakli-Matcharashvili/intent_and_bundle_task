@@ -20,12 +20,10 @@ class MainActivity : AppCompatActivity() {
         ageEditText = findViewById(R.id.ageEditText)
         jobEditText = findViewById(R.id.jobEditText)
         profileButton = findViewById(R.id.profileButton)
+        val person = Person(nameEditText.text.toString(), lastNameEditText.text.toString(), ageEditText.text.toString(), jobEditText.text.toString())
         profileButton.setOnClickListener {
             val intent = Intent(this,user_result_activity::class.java)
-            intent.putExtra("name",nameEditText.text.toString())
-            intent.putExtra("last name",lastNameEditText.text.toString())
-            intent.putExtra("age",ageEditText.text.toString())
-            intent.putExtra("job",jobEditText.text.toString())
+            intent.putExtra("Key" , person)
 
             startActivity(intent)
         }
